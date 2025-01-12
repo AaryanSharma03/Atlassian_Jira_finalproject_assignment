@@ -1,4 +1,4 @@
-![Screenshot (563)](https://github.com/user-attachments/assets/9ff16ab3-1658-4fb5-af08-088257c056a8)# Atlassian_Jira_finalproject_assignment
+![Screenshot (616)](https://github.com/user-attachments/assets/23fd50fb-fcb9-467e-b216-8cb57f4719cc)![Screenshot (563)](https://github.com/user-attachments/assets/9ff16ab3-1658-4fb5-af08-088257c056a8)# Atlassian_Jira_finalproject_assignment
 
 # Agile with Atlassian Jira - Final Project
 
@@ -132,39 +132,62 @@ Backlog visibility:
 
 ## D: Steps to Split the In Progress Column
 
-# Go to Board Settings:
+### Go to Board Settings:
 1. Open your Kanban board.
 2. Click on the three-dot menu in the upper-right corner and select **Board settings**.
 
-# Open the Columns Tab:
+### Open the Columns Tab:
 1. In the **Columns** section, you will see all the existing columns of your board.
-
-# Add New Columns:
-1. Click **Add column** and create the following columns:
+   ![Screenshot (616)](https://github.com/user-attachments/assets/64940c36-7b48-470e-8ceb-85cbcc6a9f4a)
+   
+### Add New Columns:
+1. Click **Add column** and create the following columns with category `In Progress` if you have not created new statuses:
    - Analyze
    - Build
    - Verify
+   ![Screenshot (617)](https://github.com/user-attachments/assets/941bc361-8b02-4b35-801e-13e128292364)
+   ![Screenshot (618)](https://github.com/user-attachments/assets/16cd6289-6072-4b75-a542-f8addfdb95d2)
+2. If you want you can delete the `In Progress` column in this process the status for earlier created column with `In Progress` status get their own status with default names from their respective column names.
+   ![Screenshot (619)](https://github.com/user-attachments/assets/cdc5212c-d3c1-431a-a929-7f70afdf315f)
+   ![Screenshot (620)](https://github.com/user-attachments/assets/8616fb29-c132-4059-ab73-2fc7c42ed774)
+   ![Screenshot (621)](https://github.com/user-attachments/assets/2de434ac-0067-4d99-8d0d-0e309784e2e9)
 
-# Move Statuses into New Columns:
-1. If your workflow already has statuses related to these columns, drag them from the existing **In Progress** column to the new ones.
-2. If the statuses do not exist:
-
+### *Create Statuses in Workflow (if not deleted the In Progress Column):
+1. If your workflow already has statuses related to these columns under `In Progress` category, drag them from the existing **In Progress** column to the new ones.
+2. If the statuses do not exist go to project settings and open the workflow tab:
+   ![Screenshot (592)](https://github.com/user-attachments/assets/4adeb47b-8076-45d7-b6aa-a7b9e3348fcf)
+   ![Screenshot (595)](https://github.com/user-attachments/assets/3896560e-3f34-430a-9165-871770f49d07)
+3. Now click on `edit workflow`
+   
    - Click **Add status** when creating a column.
-   - Define new statuses (**Analyze**, **Build**, **Verify**) for each column.
+   - Define new statuses (**Analyze**, **Build**, **Verify**) for each column under `In Progress` category.
    - Ensure that your workflow is updated accordingly.
+   - Tick Accept all transitions.
+   ![Screenshot (596)](https://github.com/user-attachments/assets/4dd90983-f377-4e17-bcc2-19eb66eae0f8)
+   ![Screenshot (597)](https://github.com/user-attachments/assets/148f0c5e-52f1-4e09-a217-19501a0f4b40)
+4. Publish the workflow draft to save the changes done.
+   ![Screenshot (602)](https://github.com/user-attachments/assets/b2bd9665-5f27-4140-a074-fea5235d1c11)
 
-# Steps to Set WIP Limit for Build Column
+### *Move Statuses into New Columns (if not deleted the In Progress Column)
+1. After creating new statuses go back to board settings.
+2. Click the cloumn tab, you can now see there are unmapped statuses which can be assigned to the any column.
+3. Assign the statuses to their respective columns, by dragging and dropping.
+![Screenshot (603)](https://github.com/user-attachments/assets/30243d89-ca92-4aa9-888d-cd68d5630f29)
 
-# In the Columns Tab:
+### Steps to Set WIP Limit for Build Column
+
+### In the Columns Tab:
 1. Find the newly created **Build** column.
 2. Click on the number next to **Max issues (WIP limit)** under the **Build** column.
-3. Set the value to **3**.
+3. Set the value to **3** and press `Enter`.
+   ![Screenshot (622)](https://github.com/user-attachments/assets/66f0a233-9194-4b06-857b-268b229e1d04)
 
-# Verify WIP Limit:
+### Verify WIP Limit:
 1. Go back to your board and try adding more than 3 issues in the **Build** column.
 2. If the limit is exceeded, the column will turn red, indicating that the WIP limit has been breached.
+   ![Screenshot (623)](https://github.com/user-attachments/assets/4420be15-33b5-420a-b3ac-931b2afb5675)
 
-# Verification Steps
+### Verification Steps
 1. Ensure that issues can move smoothly between **Analyze**, **Build**, and **Verify** columns.
 2. Check that when more than 3 issues are moved into the **Build** column, a WIP limit warning is displayed.
 
