@@ -41,7 +41,7 @@ This project involves creating and managing a company-managed Kanban board in Ji
 
 ## A: Steps to Create a Company-Managed Kanban Project
 
-# Create a New Kanban Project:
+### Create a New Kanban Project:
 1. Log in to your Jira account.
    ![Screenshot (563)](https://github.com/user-attachments/assets/b065e5cd-28f9-4523-96ab-14c56a3b1688)
 2. Click on **Projects** in the top navigation bar and select **Create project**.
@@ -56,7 +56,7 @@ This project involves creating and managing a company-managed Kanban board in Ji
 6. Click **Create** to finish setting up the project.
    ![Screenshot (569)](https://github.com/user-attachments/assets/07e761f1-da38-4580-b0f9-b0c7b78ae24f)
 
-## Configure Columns:
+### Configure Columns:
 1. Once the project is created, go to the board view.
    ![Screenshot (570)](https://github.com/user-attachments/assets/f0476cba-0486-47a4-ac98-201a968d04ff)
 3. Verify the name of columns as follows:\n
@@ -65,7 +65,7 @@ This project involves creating and managing a company-managed Kanban board in Ji
    - In Progress
    - Done
 
-# Verification Steps:
+### Verification Steps:
 1. To verify create issues in backlog i.e. `add item 1`, `add item 2`, `remove item 1` etc and you can see their status by double-clicking, status can be viewed as: **Backlog**, **Selected for Development**, **In Progress**, and **Done**.
    ![Screenshot (571)](https://github.com/user-attachments/assets/0f32ef3b-c241-4cc6-a009-55975ab06d82)
    ![Screenshot (572)](https://github.com/user-attachments/assets/5fd20add-bc2a-4da0-b756-430028822da0)
@@ -81,17 +81,17 @@ This project involves creating and managing a company-managed Kanban board in Ji
    
 ## B: Steps for Setting WIP Limit in the "In Progress" Column of a Kanban Board
 
-# Navigate to your Kanban board:
+### Navigate to your Kanban board:
 1. Open your Jira project where you want to set the WIP limit.
 2. Go to the Kanban board by selecting it from the sidebar.
 
-# Set WIP Limit:
+### Set WIP Limit:
 1. Click on the three-dot menu in the upper-right corner of the `in Progress` column.
    ![Screenshot (580)](https://github.com/user-attachments/assets/8ebbf6ba-da5c-43c0-990d-19158462840c)
 2. Select the limit as desired in my case i chose the max limit to be `3`.
    ![Screenshot (581)](https://github.com/user-attachments/assets/fec9a765-c02f-414b-bd3e-0029c420781f)
 
-# Verify WIP Limit:
+### Verify WIP Limit:
 1. Return to your Kanban board.
 2. Create more items.
    ![Screenshot (582)](https://github.com/user-attachments/assets/52098c5f-9953-42e1-8766-3cb290ade394)
@@ -100,31 +100,31 @@ This project involves creating and managing a company-managed Kanban board in Ji
 
 ## C: Steps for Hiding Backlog View in a Kanban Project
 
-# Navigate to your Kanban project:
+### Navigate to your Kanban project:
 1. Open your Jira project where you want to create a backlog.
 
-# Access Board Settings:
+### Access Board Settings:
 1. Click on the three-dot menu in the upper-right corner of the board.
    ![Screenshot (584)](https://github.com/user-attachments/assets/2ec07c40-795c-43e8-9e7b-fdc4a76b1d5e)
 2. Select **Board settings**.
    ![Screenshot (585)](https://github.com/user-attachments/assets/e5b2366a-7a8c-4e20-b6bf-ca3136ff6c70)
 
-# Enable Separate Backlog:
+### Enable Separate Backlog:
 1. Go to the **Columns** tab.
    ![Screenshot (586)](https://github.com/user-attachments/assets/88ec71f0-2f97-4ef4-9dab-0bf396faef7c)
 2. You can move any item to the Kanban backlog to enable the separate view or you should see an option to enable the Kanban backlog. Toggle this option to **ON**.
    ![Screenshot (587)](https://github.com/user-attachments/assets/3e501f21-bcfa-4abf-a3e7-d273c56d4ab9)
 
-# Configure Columns:
+### Configure Columns:
 1. Once the backlog is enabled, you'll see a new section labeled **Backlog** above the board columns.
 2. Move issues that are not ready for development into the backlog by dragging them into the **Backlog** section.
 
-# Verify Backlog View:
+### Verify Backlog View:
 1. Go back to the project view, and you should now see a separate **Backlog** tab next to your Kanban board tab.
    ![Screenshot (588)](https://github.com/user-attachments/assets/06aef4a6-9f7c-4255-8d80-cccbc3669677)
 3. Issues in the backlog will not be visible on the main board until they are moved to the "Selected for Development" or equivalent column.
 
-# Notes
+### Notes
 
 Backlog visibility:
 - Once enabled, the backlog becomes a distinct view from the main board, allowing your team to manage upcoming tasks without cluttering the active board.
